@@ -8,7 +8,17 @@
 		<title>Weather</title>
 	</head>
 	<body>
-		<h2>Weather in your location</h2>	
+		<form id="get-weather-form">
+			<input id="city-name-input" type="text" placeholder="City name">
+			<button type="submit">Get weather info</button>
+		</form>
+		<div id="info">
+			<div id="city-name"></div>
+			<div id="weather"></div>
+			<div id="temperature"></div>
+			<div id="humidity"></div>
+			<div id="error"></div>
+		</div>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		<script src="script.js"></script>
 	</body>
