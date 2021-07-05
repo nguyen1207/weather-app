@@ -1,0 +1,74 @@
+html {
+	font-family: 'Merriweather Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 100%;
+	background-color: rgb(140, 139, 223);
+}
+
+body {
+	height: 250px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: rgb(105, 137, 206);
+}
+
+#info {
+	margin: 30px 10px 10px 10px;
+}
+
+#get-weather-form {
+	display: flex;
+	width: 100%;
+	height: 30px;
+}
+
+#get-weather-form input {
+	font-family: 'Merriweather Sans', sans-serif;
+	width: 80%;
+	border: none;
+	text-align: center;
+	border-top-left-radius: 20px;
+}
+
+#get-weather-form input:focus {
+	outline: none;
+}
+
+#get-weather-form button{
+	width: 20%;
+	border: none;
+	color: rgb(255, 255, 255);
+	background-color: rgb(65, 181, 235);
+	border-top-right-radius: 20px;
+}
+
+#city-name {
+	font-size: 20px;
+}
+
+#weather {
+	display: flex;
+	align-items: center;
+}
+
+#weather-icon {
+	width: 30%;
+}
+
+#weather-description {
+	width: 70%;
+	font-size: 30px;
+}
+
+#temperature, #humidity {
+	font-size: 15px;
+	text-align: right;
+}
+
+i {
+	margin-right: 5px;
+	font-size: 20px;
+}
